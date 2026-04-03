@@ -4,7 +4,7 @@ A fully responsive movie search and watchlist application powered by the OMDb AP
 Search for movies, explore detailed information, and save your favourites to a persistent watchlist.
 ⸻
 **🚀 Live Demo**
-👉 .......
+👉 https://opt-jay.github.io/Movie_Watchlist_App/
 ⸻
 **✨ Features**
 	•	🔍 Search movies by title (OMDb API)
