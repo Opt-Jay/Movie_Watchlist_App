@@ -4,6 +4,21 @@ const searchBtn = document.getElementById("search-btn");
 const moviesContainer = document.getElementById("movies-container");
 const form = document.getElementById("search-form")
 
+// Function to fetch random images from unsplash at hero section
+const ACCESS_KEY = "C9AWAXSJuOYtsweyXdzzJOceXrhMDhLySTgIZdaOqM4"
+
+fetch(`https://api.unsplash.com/photos/random?query=cinema&orientation=landscape&client_id=${ACCESS_KEY}`)
+  .then(response => response.json())
+  .then(data => {
+
+    const hero = document.querySelector(".hero")
+
+    hero.style.backgroundImage = `url(${data.urls.full})`
+    hero.style.backgroundSize = "cover"
+    hero.style.backgroundPosition = "center"
+  })
+  .catch(err => console.error("Error:", err))
+
 // OMDb API key (replace with your own if needed)
 const API_KEY = "522a7817";
 
