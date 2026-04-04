@@ -2,10 +2,14 @@
 
 A fully responsive movie search and watchlist application powered by the OMDb API.
 Search for movies, explore detailed information, and save your favourites to a persistent watchlist.
+
 ⸻
+
 **🚀 Live Demo**
 👉 https://opt-jay.github.io/Movie_Watchlist_App/
+
 ⸻
+
 **✨ Features**
 	•	🔍 Search movies by title (OMDb API)
 	•	🎞 View detailed movie info (rating, runtime, genre, plot)
@@ -14,7 +18,9 @@ Search for movies, explore detailed information, and save your favourites to a p
 	•	💾 Persistent storage using localStorage
 	•	📱 Fully responsive (mobile, tablet, desktop)
 	•	⚡ Fast and dynamic UI updates
+	
 ⸻
+
 **🧠 What I Built & Learned**
 
 This project demonstrates:
@@ -24,13 +30,17 @@ This project demonstrates:
 	•	State management with localStorage
 	•	Responsive UI design (mobile-first approach)
 	•	Clean component-like structure using vanilla JS
+	
 ⸻
+
 **🛠 Tech Stack**
 	•	HTML5
 	•	CSS3 (Responsive Design + Flex/Grid)
 	•	JavaScript (ES6+)
 	•	OMDb API
+	
 ⸻
+
 **📂 Project Structure**
 movie-watchlist/
 │
@@ -43,6 +53,7 @@ movie-watchlist/
     └── watchlist.js    # Watchlist logic
 
 ⸻
+
 **🔌 API Integration**
 
 This app uses the OMDb API:
@@ -50,7 +61,9 @@ This app uses the OMDb API:
   https://www.omdbapi.com/?apikey=522a7817&s=movie
   •	Get full movie details:
   https://www.omdbapi.com/?apikey=522a7817&i=imdbID
+  
 ⸻
+
 **⚙️ How to Run Locally**
 	1.	Clone the repository:
       git clone https://github.com/Opt-Jay/Movie_Watchlist_App.git
@@ -60,7 +73,9 @@ This app uses the OMDb API:
 	3.	Open with Live Server OR open index.html directly
 	4.	Add your OMDb API key in:
       const API_KEY = "YOUR_API_KEY";
+      
 ⸻
+
 **📸 Screenshots**
 ![Search Page]
 <img width="1139" height="809" alt="Screenshot 2026-04-03 at 23 43 35" src="https://github.com/user-attachments/assets/31e929f0-121f-4fba-bb33-f744e2646b5f" />
@@ -69,6 +84,7 @@ This app uses the OMDb API:
 <img width="1139" height="809" alt="Screenshot 2026-04-03 at 23 43 51" src="https://github.com/user-attachments/assets/888b5b90-a951-435f-adf0-44811b4622b8" />
 
 ⸻
+
 **🚧 Future Improvements**
 	•	🔄 Real-time search (debouncing input)
 	•	🎯 Search suggestions / autocomplete
@@ -76,18 +92,24 @@ This app uses the OMDb API:
 	•	⭐ Sort by rating
 	•	🔍 Filter by genre/year
 	•	⚛️ Convert to React version
+	
 ⸻
+
 **💼 Why This Project Matters**
 This project showcases real-world frontend skills:
 	•	Consuming external APIs
 	•	Managing application state
 	•	Building responsive layouts
 	•	Creating interactive user experiences
+	
 ⸻
+
 **👤 Author**
 Justice Oppong-Tuah
 	•	🌍 London, UK
 	•	💼 Aspiring Data Analyst | Software Developer | Digital Product Builder
+	
 ⸻
+
 **⭐ If you like this project**
 Give it a ⭐ on GitHub - it helps a lot!
