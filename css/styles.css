@@ -225,4 +225,8 @@ img {
     box-sizing: border-box;
     margin: 0;
   }
+    .hero-content {
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
 }
