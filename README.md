@@ -12,10 +12,12 @@ Search for movies, explore detailed information, and save your favourites to a p
 
 **✨ Features**
 	•	🔍 Search movies by title (OMDb API)
+	•	🔍 Also fetches random cinema-themed images from Unsplash
+	•	🔍 Automatically applies background to the .hero section
 	•	🎞 View detailed movie info (rating, runtime, genre, plot)
 	•	➕ Add movies to watchlist
 	•	❌ Remove movies from watchlist
-	•	💾 Persistent storage using localStorage
+	•	💾 Persistent storage using localStorage both for (OMDb and Unsplash API's)
 	•	📱 Fully responsive (mobile, tablet, desktop)
 	•	⚡ Fast and dynamic UI updates
 	
@@ -49,6 +51,8 @@ movie-watchlist/
 ├── css/
 │   └── styles.css
 └── js/
+	│ 
+	│__	hero.js			# hero image handler
     ├── index.js        # Search logic
     └── watchlist.js    # Watchlist logic
 
