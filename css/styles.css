@@ -197,6 +197,7 @@ img {
 @media (max-width: 480px) {
   .search-section {
     grid-template-columns: 1fr;
+    width: 100%;
   }
 
   .movie-card {
