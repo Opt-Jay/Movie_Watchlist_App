@@ -2,12 +2,16 @@
 const searchInput = document.getElementById("search-input");
 const searchBtn = document.getElementById("search-btn");
 const moviesContainer = document.getElementById("movies-container");
+const form = document.getElementById("search-form")
 
 // OMDb API key (replace with your own if needed)
 const API_KEY = "522a7817";
 
-// Trigger search when button is clicked
-searchBtn.addEventListener("click", handleSearch);
+// Trigger search when button is clicked both on desktop and mobile
+form.addEventListener("submit", function (e) {
+    e.preventDefault()
+    handleSearch()
+})
 
 // Allow pressing "Enter" to trigger search
 searchInput.addEventListener("keydown", function (e) {
