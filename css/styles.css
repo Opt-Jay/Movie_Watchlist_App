@@ -173,6 +173,16 @@ img {
     font-size: 3rem;
   }
 
+  #search-form {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  #search-input {
+    flex: 1;
+  }
+
   .movie-card {
     grid-template-columns: 180px 1fr;
     gap: 1.5rem;
@@ -196,4 +206,14 @@ img {
   .movie-poster {
     height: 320px;
   }
+
+   #search-form {
+    width: 100%;
+  }
+
+  #search-btn {
+    width: 100%;
+    margin-top: 8px;
+  }
+  
 }
