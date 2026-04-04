@@ -209,16 +209,20 @@ img {
   }
 
    #search-form {
+    display: flex;
+    flex-direction: column;
     width: 100%;
   }
 
   #search-btn {
     width: 100%;
     margin-top: 8px;
+    box-sizing: border-box;
   }
 
   #search-input {
     width: 100%;
+    box-sizing: border-box;
     margin: 0;
   }
 }
